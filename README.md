@@ -1,7 +1,6 @@
 # Muhammed Enes Duran
 
-**Data Scientist & Machine Learning Engineer**  
-Specializing in Spatial Data Science, Predictive Modeling, Computer Vision for Remote Sensing, and Automated MLOps Pipelines.
+Data Scientist & ML Engineer | Spatial Data Science & GeoAI | Deep Learning for Remote Sensing | MLOps
 
 ---
 
