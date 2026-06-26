@@ -110,7 +110,7 @@ A reproducible urban-territorial resilience index prototype for Kaş / Bayındı
 ## GitHub Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=muend&show_icons=true&hide_border=true&theme=graywhite&count_private=true&v=3">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=muend&show_icons=true&hide_border=true&theme=graywhite&count_private=true&v=4">
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muend&layout=compact&hide_border=true&theme=graywhite&langs_count=8&v=2">
 </p>
 <p align="center">
