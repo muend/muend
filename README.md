@@ -94,8 +94,8 @@ A reproducible urban-territorial resilience index prototype for Kaş / Bayındı
 ## Featured Repositories
 
 <p>
-  <a href="https://github.com/muend/arcgis-mcp-bridge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=arcgis-mcp-bridge&theme=graywhite&hide_border=true"></a>
-  <a href="https://github.com/muend/agri-dss"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=agri-dss&theme=graywhite&hide_border=true"></a>
+  <a href="https://github.com/muend/arcgis-mcp-bridge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=arcgis-mcp-bridge&theme=graywhite&hide_border=true&v=2"></a>
+  <a href="https://github.com/muend/agri-dss"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=agri-dss&theme=graywhite&hide_border=true&v=2"></a>
 </p>
 
 ---
@@ -110,11 +110,11 @@ A reproducible urban-territorial resilience index prototype for Kaş / Bayındı
 ## GitHub Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=muend&show_icons=true&hide_border=true&theme=graywhite&include_all_commits=true&count_private=true">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muend&layout=compact&hide_border=true&theme=graywhite&langs_count=8">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=muend&show_icons=true&hide_border=true&theme=graywhite&include_all_commits=true&count_private=true&v=2">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muend&layout=compact&hide_border=true&theme=graywhite&langs_count=8&v=2">
 </p>
 <p align="center">
-  <img height="160" src="https://streak-stats.demolab.com/?user=muend&hide_border=true&theme=graywhite">
+  <img height="160" src="https://streak-stats.demolab.com/?user=muend&hide_border=true&theme=graywhite&v=2">
 </p>
 
 ---
