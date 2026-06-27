@@ -1,16 +1,20 @@
-# Muhammed Enes Duran
+<p align="center">
+  <img src="./assets/banner.svg" alt="Muhammed Enes Duran — Data Scientist & ML Engineer · Spatial Data Science · GeoAI · Deep Learning for Remote Sensing">
+</p>
 
-**Data Scientist & ML Engineer** &nbsp;·&nbsp; Spatial Data Science & GeoAI &nbsp;·&nbsp; Deep Learning for Remote Sensing &nbsp;·&nbsp; MLOps
+<p align="center">
+  <a href="https://tarimsalkoridor.online"><img src="https://img.shields.io/badge/Live_App-tarimsalkoridor.online-0A7D32?style=flat-square&logo=vercel&logoColor=white"></a>
+  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-edcoders@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
+</p>
 
 I build production-grade GeoAI: spatial decision-support systems, ArcGIS automation exposed to LLM agents, and deep-learning pipelines for satellite imagery — connecting rigorous mathematical models to systems people can actually use.
 
-<p>
-  <a href="https://tarimsalkoridor.online"><img src="https://img.shields.io/badge/Live_App-tarimsalkoridor.online-0A7D32?style=flat-square&logo=vercel&logoColor=white"></a>
-  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-edcoders@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
-  <img src="https://komarev.com/ghpvc/?username=muend&style=flat-square&color=111111&label=Profile+Views">
+<p align="center">
+  <img src="https://img.shields.io/badge/MCP_geoprocessing_tools-100-13140F?style=for-the-badge">
+  <img src="https://img.shields.io/badge/neighborhoods_modeled-147-13140F?style=for-the-badge">
+  <img src="https://img.shields.io/badge/SaaS-live_in_production-0A7D32?style=for-the-badge">
+  <img src="https://img.shields.io/badge/TÜBİTAK_2209--A-grant_funded-0A7D32?style=for-the-badge">
 </p>
-
-> **TÜBİTAK 2209-A** grant-funded researcher — accepted undergraduate research project on U-Net segmentation for remote sensing ([agri-unet](https://github.com/muend/agri-unet)).
 
 ---
 
@@ -57,6 +61,16 @@ An institutional-grade Model Context Protocol (MCP) framework exposing exactly *
 - **Process Isolation:** Built with a strict decoupled multi-process architecture (Async Core / Isolated Worker Subprocess) to guarantee runtime protection against environment blockages.
 - **Security Layer:** Features a strict PathGuard sandbox enforcing prefix validation over database structures before any algorithmic execution occurs.
 
+```mermaid
+flowchart LR
+    A["LLM Host / AI Agent"] -->|MCP protocol| B["MCP Server<br/>Async Core"]
+    B --> C{"PathGuard<br/>sandbox"}
+    C -->|path validated| D["Isolated Worker<br/>Subprocess"]
+    C -.->|rejected| X["Blocked"]
+    D --> E["ArcGIS Pro · ArcPy"]
+    E --> F["100 geoprocessing tools"]
+```
+
 ### 2. [agri-dss](https://github.com/muend/agri-dss) &nbsp;—&nbsp; Live at [tarimsalkoridor.online](https://tarimsalkoridor.online)
 
 A fully client-side Spatial Decision Support System (Agri-DSS) for the Western Antalya agricultural corridor — **5 districts, 147 neighborhoods** (Demre, Finike, Kaş, Kemer, Kumluca) — turning local agronomic and economic knowledge into a concrete, printable plan for each neighborhood: seasonal crops rated by yield and profitability, a long-term orchard investment, and an emerging market opportunity.
@@ -64,6 +78,10 @@ A fully client-side Spatial Decision Support System (Agri-DSS) for the Western A
 - **Zero-Backend Static Architecture:** A single vanilla-JS `index.html` carrying all DSS logic against a decoupled `data.json` layer — no backend, no build step. Trivially hostable on GitHub Pages, instantly auditable, and immune to server outages.
 - **DRY Data Contract:** A compact `cropSets` / `longTermCrops` / `regions` structure resolved at runtime — recommendations can be updated by editing `data.json` alone, with no code changes.
 - **Swiss / Typographic Interface:** International Typographic Style UI (Archivo + Space Mono, modular grid, single agricultural-green accent) with a guided stepper, corridor diagram, and live counters — collapsing to a clean ink-on-white **A4 print layout** for village boards and cooperatives.
+
+<p align="center">
+  <a href="https://tarimsalkoridor.online"><img src="./assets/agri-dss-preview.png" alt="Agri-DSS live application interface" width="82%"></a>
+</p>
 
 ---
 
@@ -104,18 +122,6 @@ A reproducible urban-territorial resilience index prototype for Kaş / Bayındı
 
 - **Computer Vision for Remote Sensing:** Formulating automated pipelines for agricultural pattern identification and urban object extraction from high-resolution multi-temporal satellite imagery using Convolutional Neural Networks (CNN) and U-Net segmentation models.
 - **Urban Resilience Forecasting:** Engineering predictive spatial suitability matrices and long-term geometric resilience frameworks for horizon target lines using robust statistical models.
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=muend&show_icons=true&hide_border=true&theme=graywhite&count_private=true&v=4">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muend&layout=compact&hide_border=true&theme=graywhite&langs_count=8&v=2">
-</p>
-<p align="center">
-  <img height="160" src="https://streak-stats.demolab.com/?user=muend&hide_border=true&theme=graywhite&v=2">
-</p>
 
 ---
 
