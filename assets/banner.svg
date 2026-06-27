@@ -1,40 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" font-family="'Helvetica Neue', Arial, sans-serif">
-  <!-- paper -->
-  <rect width="1280" height="340" fill="#FBFAF7"/>
+  <style>
+    .fg     { fill: #13140F; }
+    .muted  { fill: #5B5B52; }
+    .accent { fill: #0A7D32; }
+    .grid   { stroke: #D9D6CD; }
+    .rule   { stroke: #13140F; }
+    @media (prefers-color-scheme: dark) {
+      .fg     { fill: #F4F3EE; }
+      .muted  { fill: #9C9A8F; }
+      .accent { fill: #36C46A; }
+      .grid   { stroke: #38382F; }
+      .rule   { stroke: #F4F3EE; }
+    }
+  </style>
+
   <!-- modular grid (faint) -->
-  <g stroke="#E7E4DC" stroke-width="1">
+  <g class="grid" stroke-width="1">
     <line x1="120" y1="0" x2="120" y2="340"/>
     <line x1="860" y1="0" x2="860" y2="340"/>
     <line x1="1070" y1="0" x2="1070" y2="340"/>
     <line x1="0" y1="64" x2="1280" y2="64"/>
     <line x1="0" y1="276" x2="1280" y2="276"/>
   </g>
+
   <!-- green accent bar -->
-  <rect x="120" y="118" width="10" height="104" fill="#0A7D32"/>
+  <rect class="accent" x="120" y="118" width="10" height="104"/>
 
   <!-- top label -->
-  <text x="160" y="58" font-size="15" letter-spacing="6" fill="#0A7D32" font-family="'SF Mono','Consolas',monospace">PORTFOLIO — 2026</text>
+  <text class="accent" x="160" y="58" font-size="15" letter-spacing="6" font-family="'SF Mono','Consolas',monospace">PORTFOLIO — 2026</text>
 
   <!-- name -->
-  <text x="158" y="170" font-size="62" font-weight="700" letter-spacing="-1" fill="#13140F">Muhammed Enes Duran</text>
+  <text class="fg" x="158" y="170" font-size="62" font-weight="700" letter-spacing="-1">Muhammed Enes Duran</text>
 
   <!-- role line -->
-  <text x="160" y="214" font-size="22" font-weight="600" letter-spacing="2" fill="#13140F">DATA SCIENTIST &#160;·&#160; ML ENGINEER</text>
+  <text class="fg" x="160" y="214" font-size="22" font-weight="600" letter-spacing="2">DATA SCIENTIST &#160;·&#160; ML ENGINEER</text>
 
   <!-- tagline mono -->
-  <text x="160" y="252" font-size="15" letter-spacing="3.5" fill="#5B5B52" font-family="'SF Mono','Consolas',monospace">SPATIAL DATA SCIENCE &#160;·&#160; GeoAI &#160;·&#160; DEEP LEARNING FOR REMOTE SENSING</text>
+  <text class="muted" x="160" y="252" font-size="15" letter-spacing="3.5" font-family="'SF Mono','Consolas',monospace">SPATIAL DATA SCIENCE &#160;·&#160; GeoAI &#160;·&#160; DEEP LEARNING FOR REMOTE SENSING</text>
 
   <!-- right meta block -->
-  <g font-family="'SF Mono','Consolas',monospace" fill="#9A988C" font-size="13" letter-spacing="2">
-    <text x="1090" y="120">36.18°N</text>
-    <text x="1090" y="142">30.85°E</text>
-    <text x="1090" y="178" fill="#0A7D32">TÜBİTAK</text>
-    <text x="1090" y="200" fill="#0A7D32">2209-A</text>
+  <g font-family="'SF Mono','Consolas',monospace" font-size="13" letter-spacing="2">
+    <text class="muted" x="1090" y="120">36.18°N</text>
+    <text class="muted" x="1090" y="142">30.85°E</text>
+    <text class="accent" x="1090" y="178">TÜBİTAK</text>
+    <text class="accent" x="1090" y="200">2209-A</text>
   </g>
 
-  <!-- bottom rule ticks -->
-  <g stroke="#13140F" stroke-width="2">
-    <line x1="160" y1="300" x2="184" y2="300"/>
-  </g>
-  <text x="196" y="305" font-size="13" letter-spacing="2" fill="#5B5B52" font-family="'SF Mono','Consolas',monospace">github.com/muend &#160;·&#160; tarimsalkoridor.online</text>
+  <!-- bottom rule tick + footer -->
+  <line class="rule" x1="160" y1="300" x2="184" y2="300" stroke-width="2"/>
+  <text class="muted" x="196" y="305" font-size="13" letter-spacing="2" font-family="'SF Mono','Consolas',monospace">github.com/muend &#160;·&#160; tarimsalkoridor.online</text>
 </svg>
