@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://tarimsalkoridor.online"><img src="https://img.shields.io/badge/Live_App-tarimsalkoridor.online-0A7D32?style=flat-square&logo=vercel&logoColor=white"></a>
-  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-edcoders@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-medcoox@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
 I build production-grade GeoAI: spatial decision-support systems, ArcGIS automation exposed to LLM agents, and deep-learning pipelines for satellite imagery — connecting rigorous mathematical models to systems people can actually use.
