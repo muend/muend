@@ -1,23 +1,44 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Muhammed Enes Duran — Data Scientist & ML Engineer · Spatial Data Science · GeoAI · Applied Simulation Systems">
+  <img src="./assets/banner.svg" alt="Muhammed Enes Duran — GeoAI · Spatial Data Science · Applied Simulation Systems · Remote Sensing ML">
 </p>
 
 <p align="center">
-  <a href="https://muend.github.io"><img src="https://img.shields.io/badge/Portfolio-muend.github.io-13140F?style=flat-square&logo=githubpages&logoColor=white"></a>
-  <a href="https://tarimsalkoridor.online"><img src="https://img.shields.io/badge/Live_App-tarimsalkoridor.online-0A7D32?style=flat-square&logo=vercel&logoColor=white"></a>
-  <a href="https://muend.itch.io/founderexe"><img src="https://img.shields.io/badge/Game-FOUNDER.EXE-EBA93F?style=flat-square&logo=itchdotio&logoColor=white"></a>
-  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-edcoders@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://muend.github.io"><img src="https://img.shields.io/badge/Portfolio-muend.github.io-13140F?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+  <a href="https://tarimsalkoridor.online"><img src="https://img.shields.io/badge/Live_App-tarimsalkoridor.online-0A7D32?style=flat-square&logo=vercel&logoColor=white" alt="Agri-DSS live app"></a>
+  <a href="https://muend.itch.io/founderexe"><img src="https://img.shields.io/badge/Game-FOUNDER.EXE-EBA93F?style=flat-square&logo=itchdotio&logoColor=white" alt="FOUNDER.EXE on itch.io"></a>
+  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-edcoders@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-I build production-grade GeoAI and applied simulation systems: spatial decision-support tools, ArcGIS automation exposed to LLM agents, deep-learning pipelines for satellite imagery, and browser-based strategy simulations that turn complex real-world rules into usable products.
+I build production-grade **GeoAI, spatial decision-support systems, and applied simulation products**: ArcGIS automation exposed to LLM agents, deep-learning pipelines for satellite imagery, browser-native DSS tools, and realistic strategy simulations that turn complex real-world rules into usable software.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCP_geoprocessing_tools-100-13140F?style=for-the-badge">
-  <img src="https://img.shields.io/badge/neighborhoods_modeled-147-13140F?style=for-the-badge">
-  <img src="https://img.shields.io/badge/published_game-FOUNDER.EXE-EBA93F?style=for-the-badge">
-  <img src="https://img.shields.io/badge/SaaS-live_in_production-0A7D32?style=for-the-badge">
-  <img src="https://img.shields.io/badge/TÜBİTAK_2209--A-grant_funded-0A7D32?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MCP_geoprocessing_tools-100-13140F?style=for-the-badge" alt="100 MCP geoprocessing tools">
+  <img src="https://img.shields.io/badge/neighborhoods_modeled-147-13140F?style=for-the-badge" alt="147 neighborhoods modeled">
+  <img src="https://img.shields.io/badge/published_game-FOUNDER.EXE-EBA93F?style=for-the-badge" alt="Published game: FOUNDER.EXE">
+  <img src="https://img.shields.io/badge/SaaS-live_in_production-0A7D32?style=for-the-badge" alt="Live SaaS product">
+  <img src="https://img.shields.io/badge/TÜBİTAK_2209--A-grant_funded-0A7D32?style=for-the-badge" alt="TÜBİTAK 2209-A grant funded">
 </p>
+
+---
+
+## Currently Shipping
+
+| Product | Type | Status | Link |
+|---|---|---:|---|
+| **arcgis-mcp-bridge** | GeoAI infrastructure / MCP tooling | Active | [Repository](https://github.com/muend/arcgis-mcp-bridge) |
+| **agri-dss** | Spatial Decision Support System | Live | [tarimsalkoridor.online](https://tarimsalkoridor.online) |
+| **FOUNDER.EXE** | Browser-based startup simulation | Published | [Play on itch.io](https://muend.itch.io/founderexe) |
+| **agri-unet** | Remote sensing deep learning research | Funded research | [Repository](https://github.com/muend/agri-unet) |
+
+---
+
+## Product / Infrastructure / Research Map
+
+| Track | What I build | Representative work |
+|---|---|---|
+| **Product Systems** | Browser-native tools, simulations, public-facing decision-support products | `agri-dss`, `FOUNDER.EXE` |
+| **GeoAI Infrastructure** | Secure automation layers that connect GIS runtimes, LLM hosts, and geoprocessing workflows | `arcgis-mcp-bridge` |
+| **Research & Modeling** | Reproducible spatial analysis, remote-sensing ML, urban resilience and econometric studies | `agri-unet`, `kutri-resilience-index`, `turkiye-housing-prices-pandemic` |
 
 ---
 
@@ -97,10 +118,14 @@ A browser-based startup simulation game modeling the practical stress of foundin
 - **Rules-Driven Simulation:** Country-specific rule sets for Türkiye and the USA, including tax filings, company types, grants, regulatory constraints, inflation/currency pressure, investor interactions, and runway management.
 - **Idea-Aware Onboarding:** The player writes a startup idea; the system analyzes sector, regulatory requirements, global potential, and market path before shaping the simulation.
 - **Optional Live AI Layer:** Gemini, OpenAI, or Anthropic can be connected with the player's own API key; the game remains playable with scripted fallbacks when offline.
-- **Static Web Product:** Runs in the browser, saves locally, and is published on itch.io as a free / pay-what-you-want release.
+- **Browser-Native Product:** Built as a static web simulation with local save persistence, rule-based economic modeling, country-specific startup/legal parameters, and optional LLM-powered advisory flows.
 
 <p align="center">
-  <a href="https://muend.itch.io/founderexe"><img src="https://img.shields.io/badge/Play-FOUNDER.EXE-EBA93F?style=for-the-badge&logo=itchdotio&logoColor=white"></a>
+  <a href="https://muend.itch.io/founderexe"><img src="./assets/founderexe-preview.png" alt="FOUNDER.EXE browser startup simulation preview" width="82%"></a>
+</p>
+
+<p align="center">
+  <a href="https://muend.itch.io/founderexe"><img src="https://img.shields.io/badge/Play-FOUNDER.EXE-EBA93F?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Play FOUNDER.EXE on itch.io"></a>
 </p>
 
 ---
@@ -129,12 +154,35 @@ A reproducible urban-territorial resilience index prototype for Kaş / Bayındı
 
 ---
 
-## Featured Repositories
+## Repository Map
+
+Start here depending on what you want to inspect:
+
+| Repository / Product | Best entry point | Why it matters |
+|---|---|---|
+| [`arcgis-mcp-bridge`](https://github.com/muend/arcgis-mcp-bridge) | GeoAI infrastructure | ArcGIS Pro automation for LLM/MCP workflows with runtime isolation and path safety |
+| [`agri-dss`](https://github.com/muend/agri-dss) | Product / DSS | Live, zero-backend spatial decision-support system for agricultural planning |
+| [`agri-unet`](https://github.com/muend/agri-unet) | Deep learning research | U-Net remote-sensing segmentation pipeline for agricultural pattern identification |
+| [`kutri-resilience-index`](https://github.com/muend/kutri-resilience-index) | Composite indicators | Reproducible urban-territorial resilience index methodology |
+| [`turkiye-housing-prices-pandemic`](https://github.com/muend/turkiye-housing-prices-pandemic) | Spatial econometrics | Regional housing-price analysis with deflation and LISA workflows |
+| [FOUNDER.EXE](https://muend.itch.io/founderexe) | Applied simulation product | Published browser game modeling startup formation, taxes, funding and regulatory friction |
 
 <p>
-  <a href="https://github.com/muend/arcgis-mcp-bridge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=arcgis-mcp-bridge&theme=graywhite&hide_border=true&v=2"></a>
-  <a href="https://github.com/muend/agri-dss"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=agri-dss&theme=graywhite&hide_border=true&v=2"></a>
+  <a href="https://github.com/muend/arcgis-mcp-bridge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=arcgis-mcp-bridge&theme=graywhite&hide_border=true&v=2" alt="arcgis-mcp-bridge pinned repository card"></a>
+  <a href="https://github.com/muend/agri-dss"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=agri-dss&theme=graywhite&hide_border=true&v=2" alt="agri-dss pinned repository card"></a>
 </p>
+
+<!-- Suggested GitHub profile pins: arcgis-mcp-bridge, agri-dss, agri-unet, kutri-resilience-index, turkiye-housing-prices-pandemic, and the FOUNDER.EXE repository if/when it is public. -->
+
+---
+
+## Product Notes / Case-Study Hooks
+
+These are the product narratives I am currently expanding into separate case studies:
+
+- **FOUNDER.EXE:** encoding company formation, tax pressure, grants, investment logic, regulatory constraints, and optional AI advising into a playable browser simulation.
+- **Agri-DSS:** compressing agricultural suitability and local economic knowledge into printable, village-level decision plans.
+- **arcgis-mcp-bridge:** separating licensed GIS execution from AI host runtimes while preserving secure geoprocessing access.
 
 ---
 
@@ -155,3 +203,4 @@ Open to collaborative tracks involving production-grade Data Science, Spatial Ma
 - **Live App:** [tarimsalkoridor.online](https://tarimsalkoridor.online)
 - **Game:** [FOUNDER.EXE on itch.io](https://muend.itch.io/founderexe)
 - **Email:** [edcoders@gmail.com](mailto:edcoders@gmail.com)
+
