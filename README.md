@@ -1,17 +1,20 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Muhammed Enes Duran — Data Scientist & ML Engineer · Spatial Data Science · GeoAI · Deep Learning for Remote Sensing">
+  <img src="./assets/banner.svg" alt="Muhammed Enes Duran — Data Scientist & ML Engineer · Spatial Data Science · GeoAI · Applied Simulation Systems">
 </p>
 
 <p align="center">
+  <a href="https://muend.github.io"><img src="https://img.shields.io/badge/Portfolio-muend.github.io-13140F?style=flat-square&logo=githubpages&logoColor=white"></a>
   <a href="https://tarimsalkoridor.online"><img src="https://img.shields.io/badge/Live_App-tarimsalkoridor.online-0A7D32?style=flat-square&logo=vercel&logoColor=white"></a>
-  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-medcoox@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://muend.itch.io/founderexe"><img src="https://img.shields.io/badge/Game-FOUNDER.EXE-EBA93F?style=flat-square&logo=itchdotio&logoColor=white"></a>
+  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-edcoders@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
-I build production-grade GeoAI: spatial decision-support systems, ArcGIS automation exposed to LLM agents, and deep-learning pipelines for satellite imagery — connecting rigorous mathematical models to systems people can actually use.
+I build production-grade GeoAI and applied simulation systems: spatial decision-support tools, ArcGIS automation exposed to LLM agents, deep-learning pipelines for satellite imagery, and browser-based strategy simulations that turn complex real-world rules into usable products.
 
 <p align="center">
   <img src="https://img.shields.io/badge/MCP_geoprocessing_tools-100-13140F?style=for-the-badge">
   <img src="https://img.shields.io/badge/neighborhoods_modeled-147-13140F?style=for-the-badge">
+  <img src="https://img.shields.io/badge/published_game-FOUNDER.EXE-EBA93F?style=for-the-badge">
   <img src="https://img.shields.io/badge/SaaS-live_in_production-0A7D32?style=for-the-badge">
   <img src="https://img.shields.io/badge/TÜBİTAK_2209--A-grant_funded-0A7D32?style=for-the-badge">
 </p>
@@ -20,9 +23,9 @@ I build production-grade GeoAI: spatial decision-support systems, ArcGIS automat
 
 ## Technical Core & Methodology
 
-I focus on structural data science and deep learning architectures, building robust end-to-end machine learning pipelines (*O(N)* efficiency), data ingestion engines, and secure automation interfaces that connect mathematical models with complex enterprise systems.
+I focus on structural data science, spatial machine learning, and applied product systems. My work connects rigorous mathematical models with interfaces people can actually use: from GIS automation layers and satellite-imagery pipelines to static, browser-native decision-support and simulation products.
 
-**Core AI/ML**
+**Core AI / ML**
 <br>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -40,7 +43,7 @@ I focus on structural data science and deep learning architectures, building rob
 ![Rasterio](https://img.shields.io/badge/Rasterio-3776AB?style=flat-square)
 ![PySAL](https://img.shields.io/badge/PySAL-EE4C2C?style=flat-square)
 
-**MLOps & Infrastructure**
+**Systems, MLOps & Product Engineering**
 <br>
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white)
@@ -48,18 +51,22 @@ I focus on structural data science and deep learning architectures, building rob
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black)
 ![Mypy](https://img.shields.io/badge/Mypy-2A6DB2?style=flat-square)
+![JavaScript](https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## Flagship Systems & ML Infrastructure
+## Flagship Systems & Product Work
 
 ### 1. [arcgis-mcp-bridge](https://github.com/muend/arcgis-mcp-bridge)
 
 An institutional-grade Model Context Protocol (MCP) framework exposing exactly **100 specialized geoprocessing tools** directly to LLM hosts and intelligent agents — turning ArcGIS Pro into a programmable backend for AI workflows.
 
-- **Process Isolation:** Built with a strict decoupled multi-process architecture (Async Core / Isolated Worker Subprocess) to guarantee runtime protection against environment blockages.
-- **Security Layer:** Features a strict PathGuard sandbox enforcing prefix validation over database structures before any algorithmic execution occurs.
+- **Process Isolation:** Strictly decoupled multi-process architecture: async server core and isolated ArcPy worker subprocess.
+- **Security Layer:** PathGuard sandbox with prefix validation over filesystem and geodatabase paths before algorithmic execution.
+- **Agentic GIS:** Designed for local, controlled ArcGIS Pro automation from LLM hosts without collapsing the LLM runtime into the licensed GIS interpreter.
 
 ```mermaid
 flowchart LR
@@ -73,14 +80,27 @@ flowchart LR
 
 ### 2. [agri-dss](https://github.com/muend/agri-dss) &nbsp;—&nbsp; Live at [tarimsalkoridor.online](https://tarimsalkoridor.online)
 
-A fully client-side Spatial Decision Support System (Agri-DSS) for the Western Antalya agricultural corridor — **5 districts, 147 neighborhoods** (Demre, Finike, Kaş, Kemer, Kumluca) — turning local agronomic and economic knowledge into a concrete, printable plan for each neighborhood: seasonal crops rated by yield and profitability, a long-term orchard investment, and an emerging market opportunity.
+A fully client-side Spatial Decision Support System for the Western Antalya agricultural corridor — **5 districts, 147 neighborhoods** (Demre, Finike, Kaş, Kemer, Kumluca) — turning local agronomic and economic knowledge into a concrete, printable plan for each neighborhood.
 
-- **Zero-Backend Static Architecture:** A single vanilla-JS `index.html` carrying all DSS logic against a decoupled `data.json` layer — no backend, no build step. Trivially hostable on GitHub Pages, instantly auditable, and immune to server outages.
-- **DRY Data Contract:** A compact `cropSets` / `longTermCrops` / `regions` structure resolved at runtime — recommendations can be updated by editing `data.json` alone, with no code changes.
-- **Swiss / Typographic Interface:** International Typographic Style UI (Archivo + Space Mono, modular grid, single agricultural-green accent) with a guided stepper, corridor diagram, and live counters — collapsing to a clean ink-on-white **A4 print layout** for village boards and cooperatives.
+- **Zero-Backend Static Architecture:** Vanilla JS application against a decoupled `data.json` layer — no backend, no build step, trivially hostable and auditable.
+- **DRY Data Contract:** Compact `cropSets` / `longTermCrops` / `regions` schema resolved at runtime; recommendations can be updated by editing data only.
+- **Swiss / Typographic Interface:** Guided stepper, corridor diagram, live counters, and clean A4 print output for village boards and cooperatives.
 
 <p align="center">
   <a href="https://tarimsalkoridor.online"><img src="./assets/agri-dss-preview.png" alt="Agri-DSS live application interface" width="82%"></a>
+</p>
+
+### 3. [FOUNDER.EXE](https://muend.itch.io/founderexe) &nbsp;—&nbsp; Browser Game / Startup Simulation
+
+A browser-based startup simulation game modeling the practical stress of founding a company in **Türkiye or the USA**: taxes, incorporation choices, grants, investor expectations, cash flow, regulatory friction, AI-assisted advising, and bankruptcy/exit outcomes.
+
+- **Rules-Driven Simulation:** Country-specific rule sets for Türkiye and the USA, including tax filings, company types, grants, regulatory constraints, inflation/currency pressure, investor interactions, and runway management.
+- **Idea-Aware Onboarding:** The player writes a startup idea; the system analyzes sector, regulatory requirements, global potential, and market path before shaping the simulation.
+- **Optional Live AI Layer:** Gemini, OpenAI, or Anthropic can be connected with the player's own API key; the game remains playable with scripted fallbacks when offline.
+- **Static Web Product:** Runs in the browser, saves locally, and is published on itch.io as a free / pay-what-you-want release.
+
+<p align="center">
+  <a href="https://muend.itch.io/founderexe"><img src="https://img.shields.io/badge/Play-FOUNDER.EXE-EBA93F?style=for-the-badge&logo=itchdotio&logoColor=white"></a>
 </p>
 
 ---
@@ -118,16 +138,20 @@ A reproducible urban-territorial resilience index prototype for Kaş / Bayındı
 
 ---
 
-## Active Research & Deep Learning Workspace
+## Active Research & Product Workspace
 
-- **Computer Vision for Remote Sensing:** Formulating automated pipelines for agricultural pattern identification and urban object extraction from high-resolution multi-temporal satellite imagery using Convolutional Neural Networks (CNN) and U-Net segmentation models.
-- **Urban Resilience Forecasting:** Engineering predictive spatial suitability matrices and long-term geometric resilience frameworks for horizon target lines using robust statistical models.
+- **Computer Vision for Remote Sensing:** Automated pipelines for agricultural pattern identification and urban object extraction from high-resolution multi-temporal satellite imagery using CNN and U-Net segmentation models.
+- **Agentic GIS & MCP Tooling:** Secure local automation layers that expose GIS operations to LLM agents without compromising ArcGIS Pro runtime isolation.
+- **Applied Simulation Systems:** Browser-native simulations that encode real-world regulatory, financial, and decision processes into interactive products.
+- **Urban Resilience Forecasting:** Predictive spatial suitability matrices and long-term territorial resilience frameworks using robust statistical models.
 
 ---
 
 ## Focus
 
-Open to collaborative tracks involving production-grade Data Science, Spatial Machine Learning pipelines, and automated GeoAI systems architecture.
+Open to collaborative tracks involving production-grade Data Science, Spatial Machine Learning pipelines, automated GeoAI systems architecture, and applied simulation products.
 
+- **Portfolio:** [muend.github.io](https://muend.github.io)
 - **Live App:** [tarimsalkoridor.online](https://tarimsalkoridor.online)
+- **Game:** [FOUNDER.EXE on itch.io](https://muend.itch.io/founderexe)
 - **Email:** [edcoders@gmail.com](mailto:edcoders@gmail.com)
