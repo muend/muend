@@ -107,10 +107,6 @@ A fully client-side Spatial Decision Support System for the Western Antalya agri
 - **DRY Data Contract:** Compact `cropSets` / `longTermCrops` / `regions` schema resolved at runtime; recommendations can be updated by editing data only.
 - **Swiss / Typographic Interface:** Guided stepper, corridor diagram, live counters, and clean A4 print output for village boards and cooperatives.
 
-<p align="center">
-  <a href="https://tarimsalkoridor.online"><img src="./assets/agri-dss-preview.png" alt="Agri-DSS live application interface" width="82%"></a>
-</p>
-
 ### 3. [FOUNDER.EXE](https://muend.itch.io/founderexe) &nbsp;—&nbsp; Browser Game / Startup Simulation
 
 A browser-based startup simulation game modeling the practical stress of founding a company in **Türkiye or the USA**: taxes, incorporation choices, grants, investor expectations, cash flow, regulatory friction, AI-assisted advising, and bankruptcy/exit outcomes.
@@ -119,10 +115,6 @@ A browser-based startup simulation game modeling the practical stress of foundin
 - **Idea-Aware Onboarding:** The player writes a startup idea; the system analyzes sector, regulatory requirements, global potential, and market path before shaping the simulation.
 - **Optional Live AI Layer:** Gemini, OpenAI, or Anthropic can be connected with the player's own API key; the game remains playable with scripted fallbacks when offline.
 - **Browser-Native Product:** Built as a static web simulation with local save persistence, rule-based economic modeling, country-specific startup/legal parameters, and optional LLM-powered advisory flows.
-
-<p align="center">
-  <a href="https://muend.itch.io/founderexe"><img src="./assets/founderexe-preview.png" alt="FOUNDER.EXE browser startup simulation preview" width="82%"></a>
-</p>
 
 <p align="center">
   <a href="https://muend.itch.io/founderexe"><img src="https://img.shields.io/badge/Play-FOUNDER.EXE-EBA93F?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Play FOUNDER.EXE on itch.io"></a>
