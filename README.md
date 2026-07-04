@@ -160,11 +160,25 @@ Start here depending on what you want to inspect:
 | [`turkiye-housing-prices-pandemic`](https://github.com/muend/turkiye-housing-prices-pandemic) | Spatial econometrics       | Regional housing-price analysis with deflation and LISA workflows                                                                 |
 | [FOUNDER.EXE](https://muend.itch.io/founderexe)                                               | Applied simulation product | Published browser game modeling startup formation, taxes, funding and regulatory friction                                         |
 
-<p>
-  <a href="https://github.com/muend/arcgis-mcp-bridge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=arcgis-mcp-bridge&theme=graywhite&hide_border=true&v=2" alt="arcgis-mcp-bridge pinned repository card"></a>
-  <a href="https://github.com/muend/agri-dss"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muend&repo=agri-dss&theme=graywhite&hide_border=true&v=2" alt="agri-dss pinned repository card"></a>
-</p>
+## Live Metrics
 
+<p align="center">
+  <a href="https://pypi.org/project/arcgis-mcp-bridge/">
+    <img src="https://img.shields.io/pypi/v/arcgis-mcp-bridge?style=flat-square&label=arcgis-mcp-bridge&color=2C7FB8" alt="arcgis-mcp-bridge PyPI version">
+  </a>
+  <a href="https://pypi.org/project/arcgis-mcp-bridge/">
+    <img src="https://img.shields.io/pypi/dm/arcgis-mcp-bridge?style=flat-square&label=PyPI%20downloads&color=13140F" alt="arcgis-mcp-bridge monthly PyPI downloads">
+  </a>
+  <a href="https://github.com/muend/arcgis-mcp-bridge">
+    <img src="https://img.shields.io/github/stars/muend/arcgis-mcp-bridge?style=flat-square&label=arcgis-mcp-bridge%20stars&color=EBA93F" alt="arcgis-mcp-bridge GitHub stars">
+  </a>
+  <a href="https://glama.ai/mcp/servers/muend/arcgis-mcp-bridge">
+    <img src="https://img.shields.io/badge/Glama-A--rated-0A7D32?style=flat-square" alt="Glama A-rated MCP quality">
+  </a>
+  <a href="https://github.com/muend">
+    <img src="https://komarev.com/ghpvc/?username=muend&style=flat-square&color=13140F&label=profile%20views" alt="Profile views">
+  </a>
+</p>
 <!-- Suggested GitHub profile pins: arcgis-mcp-bridge, agri-dss, agri-unet, kutri-resilience-index, turkiye-housing-prices-pandemic, and the FOUNDER.EXE repository if/when it is public. -->
 
 ---
