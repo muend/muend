@@ -6,7 +6,7 @@
   <a href="https://muend.github.io"><img src="https://img.shields.io/badge/Portfolio-muend.github.io-13140F?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio"></a>
   <a href="https://tarimsalkoridor.online"><img src="https://img.shields.io/badge/Live_App-tarimsalkoridor.online-0A7D32?style=flat-square&logo=vercel&logoColor=white" alt="Agri-DSS live app"></a>
   <a href="https://muend.itch.io/founderexe"><img src="https://img.shields.io/badge/Game-FOUNDER.EXE-EBA93F?style=flat-square&logo=itchdotio&logoColor=white" alt="FOUNDER.EXE on itch.io"></a>
-  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-edcoders@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="mailto:edcoders@gmail.com"><img src="https://img.shields.io/badge/Email-nsduraan@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 I build production-grade **GeoAI, spatial decision-support systems, and applied simulation products**: ArcGIS automation exposed to LLM agents, deep-learning pipelines for satellite imagery, browser-native DSS tools, and realistic strategy simulations that turn complex real-world rules into usable software.
