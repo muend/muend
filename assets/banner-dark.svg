@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Muhammed Enes Duran — GeoAI agent systems, deterministic evaluation, spatial ML infrastructure">
+  <rect width="1280" height="300" fill="#101713"/>
+
+  <!-- modular grid -->
+  <g stroke="#242B25" stroke-width="1">
+    <line x1="104" y1="0" x2="104" y2="300"/>
+    <line x1="908" y1="0" x2="908" y2="300"/>
+    <line x1="0" y1="56" x2="1280" y2="56"/>
+    <line x1="0" y1="244" x2="1280" y2="244"/>
+  </g>
+
+  <!-- accent bar -->
+  <rect x="104" y="96" width="8" height="96" fill="#53BD7F"/>
+
+  <text x="140" y="38" font-family="'SF Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="13" letter-spacing="5" fill="#53BD7F">SYSTEMS INDEX &#183; 2026</text>
+
+  <text x="138" y="148" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-1.2" fill="#E4E9E5">Muhammed Enes Duran</text>
+
+  <text x="140" y="188" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="0.4" fill="#B6BDB7">GeoAI agent systems &#183; deterministic evaluation &#183; spatial ML infrastructure</text>
+
+  <text x="140" y="222" font-family="'SF Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="13" letter-spacing="2.6" fill="#9AA19A">AGENT SKILLS &#183; MCP &#183; SENTINEL-2 &#183; ArcPy &#183; RUST HARNESSES</text>
+
+  <!-- right meta -->
+  <g font-family="'SF Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="12" letter-spacing="1.8">
+    <text x="940" y="104" fill="#9AA19A">36.18&#176;N</text>
+    <text x="940" y="124" fill="#9AA19A">30.85&#176;E</text>
+    <text x="940" y="160" fill="#F3AE51">T&#220;B&#304;TAK 2209-A</text>
+    <text x="940" y="180" fill="#9AA19A">grant funded</text>
+  </g>
+
+  <line x1="140" y1="274" x2="162" y2="274" stroke="#E4E9E5" stroke-width="2"/>
+  <text x="174" y="279" font-family="'SF Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="12" letter-spacing="2" fill="#9AA19A">muend.github.io &#183; github.com/muend</text>
+</svg>
