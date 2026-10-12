@@ -24,12 +24,27 @@ MONO = "'SF Mono',Consolas,'DejaVu Sans Mono',monospace"
 
 M = 88          # left margin
 RULE_Y = 214    # scale-bar rule
-TICKS = ["AGENT SKILLS", "MCP", "SENTINEL-2", "ArcPy", "RUST"]
+TICKS = ["LLM EVALUATION", "AGENT SKILLS", "MCP", "PYTORCH", "RUST"]
 TICK_SPAN = 900
+
+LABEL = "Muhammed Enes Duran. AI engineer: LLM evaluation, agent systems, MCP tooling."
+
+# interval plot, right third
+PX0, PX1 = 1012, 1205       # plot box, same footprint the old motif had
+ZERO_X = 1096               # the "no difference" line
+ROW_Y0, ROW_STEP = 82, 22
+# (low, point, high, tone): tone says which side of zero the whole interval sits on
+INTERVALS = [
+    (1124, 1156, 1188, "win"),
+    (1058, 1090, 1122, "null"),
+    (1108, 1136, 1164, "win"),
+    (1022, 1050, 1078, "loss"),
+    (1072, 1106, 1140, "null"),
+]
 
 
 def scale_bar(c):
-    """A map scale bar whose ticks are labelled with domains, not distances."""
+    """A ruler whose ticks are labelled with the work, not with distances."""
     out = [f'<line x1="{M}" y1="{RULE_Y}" x2="{M + TICK_SPAN}" y2="{RULE_Y}" '
            f'stroke="{c["hair"]}" stroke-width="1"/>']
     step = TICK_SPAN / (len(TICKS) - 1)
@@ -43,33 +58,33 @@ def scale_bar(c):
     return "\n  ".join(out)
 
 
-def patch_grid(c):
-    """A 9x5 raster patch: mostly empty cells, one classified cluster.
+def interval_plot(c):
+    """Five confidence intervals against a zero line.
 
-    The geo motif the right third was missing. Reads as Sentinel-2 patches
-    without pretending to be a real scene.
+    The picture of how a model decision gets made here: an interval clear of
+    zero is a result, one that straddles it is not. Illustrative, not a chart
+    of any one experiment.
     """
-    x0, y0, s, g = 1012, 74, 17, 5
-    filled = {(2, 1), (3, 1), (3, 2), (4, 2), (4, 3), (5, 2), (5, 3), (6, 3)}
-    amber = {(7, 1)}
-    out = []
-    for r in range(5):
-        for col in range(9):
-            x, y = x0 + col * (s + g), y0 + r * (s + g)
-            if (col, r) in filled:
-                fill, stroke = c["cell"], c["green"]
-            elif (col, r) in amber:
-                fill, stroke = c["cell2"], c["amber"]
-            else:
-                fill, stroke = "none", c["hair"]
-            out.append(f'<rect x="{x}" y="{y}" width="{s}" height="{s}" '
-                       f'fill="{fill}" stroke="{stroke}" stroke-width="1"/>')
+    tone = {"win": c["green"], "null": c["mute"], "loss": c["amber"]}
+    y_last = ROW_Y0 + ROW_STEP * (len(INTERVALS) - 1)
+    out = [f'<line x1="{ZERO_X}" y1="{ROW_Y0 - 12}" x2="{ZERO_X}" y2="{y_last + 12}" '
+           f'stroke="{c["mute"]}" stroke-width="1" stroke-dasharray="3 4"/>']
+    for i, (lo, mid, hi, kind) in enumerate(INTERVALS):
+        y, col = ROW_Y0 + ROW_STEP * i, tone[kind]
+        out.append(f'<line x1="{PX0}" y1="{y}" x2="{PX1}" y2="{y}" '
+                   f'stroke="{c["hair"]}" stroke-width="1"/>')
+        out.append(f'<line x1="{lo}" y1="{y}" x2="{hi}" y2="{y}" '
+                   f'stroke="{col}" stroke-width="2"/>')
+        for x in (lo, hi):
+            out.append(f'<line x1="{x}" y1="{y - 5}" x2="{x}" y2="{y + 5}" '
+                       f'stroke="{col}" stroke-width="2"/>')
+        out.append(f'<circle cx="{mid}" cy="{y}" r="5" fill="{col}"/>')
     return "\n  ".join(out)
 
 
 def banner(c):
-    gx = 1012 + 9 * 22 - 5          # right edge of the patch grid
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Muhammed Enes Duran. GeoAI agent systems, deterministic evaluation, spatial ML infrastructure.">
+    gx = PX1                         # right edge shared by masthead, plot and footer
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{LABEL}">
   <!-- hairlines -->
   <line x1="0" y1="40" x2="{W}" y2="40" stroke="{c['hair']}" stroke-width="1"/>
   <line x1="0" y1="264" x2="{W}" y2="264" stroke="{c['hair']}" stroke-width="1"/>
@@ -77,22 +92,22 @@ def banner(c):
 
   <!-- masthead -->
   <text x="{M}" y="26" font-family="{MONO}" font-size="12" letter-spacing="5.5" fill="{c['green']}">SYSTEMS INDEX</text>
-  <text x="{gx}" y="26" text-anchor="end" font-family="{MONO}" font-size="12" letter-spacing="3" fill="{c['mute']}">36.18&#176;N &#160;30.85&#176;E &#160;/&#160; 2026</text>
+  <text x="{gx}" y="26" text-anchor="end" font-family="{MONO}" font-size="12" letter-spacing="3" fill="{c['mute']}">MEASURED BEFORE TRUSTED &#160;/&#160; 2026</text>
 
   <!-- name + role -->
   <text x="{M - 4}" y="132" font-family="{SANS}" font-size="60" font-weight="700" letter-spacing="-1.4" fill="{c['ink']}">Muhammed Enes Duran</text>
-  <text x="{M}" y="172" font-family="{SANS}" font-size="20" font-weight="600" letter-spacing="0.2" fill="{c['soft']}">GeoAI agent systems &#183; deterministic evaluation &#183; spatial ML infrastructure</text>
+  <text x="{M}" y="172" font-family="{SANS}" font-size="20" font-weight="600" letter-spacing="0.2" fill="{c['soft']}">AI engineer &#183; LLM evaluation &#183; agent systems &#183; MCP tooling</text>
 
-  <!-- domain scale bar -->
+  <!-- work ruler -->
   {scale_bar(c)}
 
-  <!-- raster patch motif -->
-  {patch_grid(c)}
-  <text x="{gx}" y="192" text-anchor="end" font-family="{MONO}" font-size="11" letter-spacing="2" fill="{c['mute']}">S2 L2A &#183; 10 m &#183; CLASSIFIED</text>
+  <!-- interval plot motif -->
+  {interval_plot(c)}
+  <text x="{gx}" y="198" text-anchor="end" font-family="{MONO}" font-size="11" letter-spacing="2" fill="{c['mute']}">&#916; METRIC &#183; 95% CI &#183; BOOTSTRAP</text>
 
   <!-- footer -->
   <text x="{M}" y="284" font-family="{MONO}" font-size="11.5" letter-spacing="2" fill="{c['mute']}">muend.github.io</text>
-  <text x="{gx}" y="284" text-anchor="end" font-family="{MONO}" font-size="11.5" letter-spacing="2" fill="{c['amber']}">T&#220;B&#304;TAK 2209-A</text>
+  <text x="{gx}" y="284" text-anchor="end" font-family="{MONO}" font-size="11.5" letter-spacing="2" fill="{c['amber']}">&#304;ZM&#304;R &#183; T&#220;RK&#304;YE</text>
 </svg>
 """
 
