@@ -31,7 +31,7 @@ The through-line is evidence. Every number below comes from a benchmark, a manif
 
 ## Experience
 
-**AI Engineer (Contract) · EatBetter, AI-powered nutrition app · Sep 2026** · [case study](https://muend.github.io/projects/eatbetter.html)
+**AI Engineer (Contract) · EatBetter, AI-powered nutrition app · Aug – Oct 2026** · [case study](https://muend.github.io/projects/eatbetter.html)
 
 - **Evaluation platform.** Built a 923-case benchmark from scratch: 569 human-adjudicated gold labels, a 277-case sealed holdout, 16 deterministic metrics and 742 automated tests in CI. Comparisons use user-clustered bootstrap CIs, and the release gate counts missing evidence as a failure.
 - **Model decisions by measurement.** Retired a 7× costlier model after showing no gain (ΔF1 −0.006, 95% CI [−0.023, +0.012]) and shut down a candidate pipeline that lost to the bare model in 4 of 4 comparisons.
